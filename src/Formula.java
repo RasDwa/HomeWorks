@@ -35,7 +35,7 @@ public class Formula {
 
     private static void eighteen(double x) {
         double y = log(abs(sin(x))) + 2 * pow(E, x) + 2 * cos(abs(x)) + 2;
-        System.out.println("Решенее восемнадцятого " + y);
+        System.out.println("Решенее восемнадцятого " + Math.round(y * 100.0) / 100.0);
     }
 
     private static void sixteen(double x) {
@@ -65,7 +65,7 @@ public class Formula {
 
     private static void ten(double x) {
         double y = (abs(7.2 - 10. * x)) / (pow(pow(x, 2) + pow(E, x), 1. / 3)) * atan((4. * (x / 3.) / sqrt(pow(1.1, 3) + pow(x, 2))));
-        System.out.println("Решенее десятого " + y);
+        System.out.println("Решенее десятого " + Math.round(y * 100.0) / 100.0);
     }
 
     private static void nine(double x) {
@@ -75,7 +75,7 @@ public class Formula {
 
     private static void eight(double x) {
         double y = pow(pow(E, 2 * x) * sqrt(x) - (x + 1. / 3) / x, 1. / 3) * abs(cos(2.5 * x));
-        System.out.println("Решенее восьмого " + y);
+        System.out.println("Решенее восьмого " + Math.round(y * 100.0) / 100.0);
     }
 
     private static void seven(double x) {
@@ -90,7 +90,7 @@ public class Formula {
 
     private static void five(double x) {
         double y = (pow(pow(E, (-2 + x)), 1. / 5)) * (1. / sqrt(pow(x, 2) + pow(x, 4) + log(abs(x - 3.14))));
-        System.out.println("Решенее пятого " + y);
+        System.out.println("Решенее пятого " + Math.round(y * 100.0) / 100.0);
     }
 
     private static void four(double x) {
@@ -105,7 +105,7 @@ public class Formula {
 
     private static void two(double x) {
         double y = (1. / 3) * (sqrt(abs(sin(x))) * pow(pow(E, 0.12 * x), 1. / 3));
-        System.out.println("Решенее второго " + y);
+        System.out.println("Решенее второго " +  Math.round(y * 100.0) / 100.0);
     }
 
     private static void one(double x) {
